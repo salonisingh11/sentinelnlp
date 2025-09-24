@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "cti": "http://example.org/cti#",
+    "source": "cti:source",
+    "target": "cti:target",
+    "predicate": "cti:predicate"
+  },
+  "@graph": [
+    ["APT29", "uses", "Mimikatz"],
+    ["Emotet", "exploits", "CVE-2021-34527"],
+    ["Emotet", "targets", "Microsoft"]
+  ]
+}
